@@ -38,8 +38,9 @@ Foram definidos intervalos sobre o Dataset `iris`, onde os mesmo iam de 50 a 50,
 
 ### Espaço amostral
 
-O espaço amostral do iris classificado da seguinte maneira, onde esse espaço se extende as demais colunas de iformalão
-{setosa pequena, setosa média, setosa grande, versicolor pequena, versicolor média, versicolor grande, virginica pequena, virginica média, virginica grande}
+O espaço amostral do iris é classificado da seguinte maneira, onde esse espaço se extende as demais colunas de tamanho de petala e sepala.
+
+Ω = {setosa pequena, setosa média, setosa grande, versicolor pequena, versicolor média, versicolor grande, virginica pequena, virginica média, virginica grande}
 
 ### Probabilidade
 
@@ -47,13 +48,67 @@ Neste espaço amostral temos a probabilidade de 1/9 para cada possibilidade de t
 
 ### Eventos
 
-#### Evento 1 -
-#### Evento 2 -
-#### Evento 3 -
+Definição de abreveaturas:
 
-### União de Probabilidade
+- Tipos de iris:
+    - Setosa - (S)
+    - Versicolor - (VC)
+    - Virginica - (VG)
+- Estrutura da iris:
+    - Petala - (P)
+    - Sepala - (S)
+- Medidas de tamanho:
+    - Comprimento - (C)
+    - Largura (L)
+- Classificação de Tamanho:
+    - Pequena - (P)
+    - Média - (M)
+    - Grande - (G)
 
-### Interseção de Probabilidade
+OBS: A definição das caracteristicas se dará por meio da abreveação, seguindo a ordem de `Estrutura da iris > Medidadas de tamanho > Classificação de Tamanho`.
+
+O total de amostras é definido como 150.
+
+#### Evento 1 - Vesicolor comprimento da petala média
+
+##### União de Probabilidade
+
+- Probabilidade da união de versicolor (VC) e comprimento da petala média (PCM)
+
+P(VC ∩ PCM) = 46/150;
+
+##### Interseção de Probabilidade
+
+- Probabilidade da intersecção de versicolor (VC) e comprimento da petala média (PCM).
+
+P(VC ∪ PCM) = P(VC) + P(PCM) - P(VC ∩ PCM) = 50/150 + 50/150 - 46/150 = 54/150
+
+#### Evento 2 - Setosa comprimento da sepala pequena
+
+##### União de Probabilidade
+
+- Probabilidade da união de setosa (S) e comprimento da sepala pequena (SCP)
+
+P(S ∩ SCP) = 43/150;
+
+##### Interseção de Probabilidade
+
+- Probabilidade da intersecção de setosa (S) e comprimento da sepala média (SCP).
+
+P(S ∪ SCP) = P(S) + P(SCP) - P(S ∩ SCP) = 50/150 + 49/150 - 43/150 = 56/150
+
+#### Evento 3 - Virginica largura de sepala médio e largura de petala pequeno
+
+##### União de Probabilidade
+
+- Probabilidade da união de virginica (VG) de largura de sepala médio (SLM) e largura de petala da  pequeno (PLP)
+
+
+##### Interseção de Probabilidade
+
+- Probabilidade da intersecção de virginica (VG) de largura de sepala médio (SLM) e largura de petala da  pequeno (PLP)
+
+
 
 ### Probabilidades Condicionais
 
