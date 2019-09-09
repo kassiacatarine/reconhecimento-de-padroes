@@ -69,19 +69,22 @@ OBS: A definição das caracteristicas se dará por meio da abreveação, seguin
 
 O total de amostras é definido como 150.
 
+Apesar de o dataset ser regular tendo em vista a distribuição dos dados, houve mudanças drasticas entre os eventos escolhidos, fazendo com que houvesse uma grande diferença entre dois dos eventos escolhidos. A partir dele é possivel concluir que mesmo analisando um dataset `normal` a distribução não se conteve em mudanças.
+
+
 #### Evento 1 - Vesicolor comprimento da petala média
 
 ##### União de Probabilidade
 
 - Probabilidade da união de versicolor (VC) e comprimento da petala média (PCM)
 
-P(VC ∩ PCM) = 46/150;
+P(VC ∪ PCM) = P(VC) + P(PCM) - P(VC ∩ PCM) = 50/150 + 50/150 - 46/150 = 54/150
 
 ##### Interseção de Probabilidade
 
 - Probabilidade da intersecção de versicolor (VC) e comprimento da petala média (PCM).
 
-P(VC ∪ PCM) = P(VC) + P(PCM) - P(VC ∩ PCM) = 50/150 + 50/150 - 46/150 = 54/150
+P(VC ∩ PCM) = 46/150
 
 #### Evento 2 - Setosa comprimento da sepala pequena
 
@@ -89,26 +92,25 @@ P(VC ∪ PCM) = P(VC) + P(PCM) - P(VC ∩ PCM) = 50/150 + 50/150 - 46/150 = 54/1
 
 - Probabilidade da união de setosa (S) e comprimento da sepala pequena (SCP)
 
-P(S ∩ SCP) = 43/150;
+P(S ∪ SCP) = P(S) + P(SCP) - P(S ∩ SCP) = 50/150 + 49/150 - 43/150 = 56/150
 
 ##### Interseção de Probabilidade
 
 - Probabilidade da intersecção de setosa (S) e comprimento da sepala média (SCP).
 
-P(S ∪ SCP) = P(S) + P(SCP) - P(S ∩ SCP) = 50/150 + 49/150 - 43/150 = 56/150
+P(S ∩ SCP) = 43/150
 
-#### Evento 3 - Virginica largura de sepala médio e largura de petala pequeno
+#### Evento 3 - Setosa largura de sepala médio
 
 ##### União de Probabilidade
 
-- Probabilidade da união de virginica (VG) de largura de sepala médio (SLM) e largura de petala da  pequeno (PLP)
+- Probabilidade da união de setosa (S) de largura de sepala médio (SLM)
+
+P(S ∪ SLM) = P(S) + P(SLM) - P(S ∩ SLM) = 50/150 + 50/150 - 15/150 = 85/150
 
 
 ##### Interseção de Probabilidade
 
-- Probabilidade da intersecção de virginica (VG) de largura de sepala médio (SLM) e largura de petala da  pequeno (PLP)
+- Probabilidade da intersecção de setosa (S) de largura de sepala médio (SLM)
 
-
-
-### Probabilidades Condicionais
-
+P(S ∩ SLM) = 15/150
