@@ -114,3 +114,42 @@ P(S ∪ SLM) = P(S) + P(SLM) - P(S ∩ SLM) = 50/150 + 50/150 - 15/150 = 85/150
 - Probabilidade da intersecção de setosa (S) de largura de sepala médio (SLM)
 
 P(S ∩ SLM) = 15/150
+
+
+### Probabilidade Condicional
+
+- Uma flor escolhida ao acaso, seja setosa, de comprimento de petala média e probabilidade de possuir comprimento de sepala pequeno
+
+    - Probabilidade de setosa de comprimento de petala média
+        
+        P(A) = 1/50
+
+    - Probabilidade de setosa de comprimento de sepala pequeno
+
+        P(B) = 43/50
+
+Então P(A | B) = P(A∩B)/P(B), logo P(A | B) = (1/50)/(43/50), assim retornando P(A | B) = 1/43.
+
+- Uma flor escolhida ao acaso, seja setosa, de largura de petala média e probabilidade de possuir largura de sepala pequeno
+
+    - Probabilidade de setosa de largura de petala média
+        
+        P(A) = 1/50
+
+    - Probabilidade de setosa de largura de sepala pequeno
+
+        P(B) = 2/50
+
+Então P(A | B) = P(A∩B)/P(B), logo P(A | B) = (1/50)/(2/50), assim retornando P(A | B) = 1/2.
+
+- Uma flor escolhida ao acaso, seja setosa, de largura de petala pequena e probabilidade de possuir comprimento de sepala pequeno
+
+    - Probabilidade de setosa de largura de petala grande
+        
+        P(A) = 49/50
+
+    - Probabilidade de setosa de comprimento de sepala pequeno
+
+        P(B) = 33/50
+
+Então P(A | B) = P(A∩B)/P(B), logo P(A | B) = (49/50)/(33/50), assim retornando P(A | B) = 49/33.
